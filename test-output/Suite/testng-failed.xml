@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.AHM.Utilities.ExtentListnerClass"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.AHM.TestCases.TC_CreateInjuryReport">
+        <methods>
+          <include name="createInjuryReport"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.AHM.TestCases.TC_CreateInjuryReport -->
+      <class name="com.AHM.TestCases.TC_ChangeReadinessLevel">
+        <methods>
+          <include name="setUp"/>
+          <include name="changeReadinessLevel"/>
+        </methods>
+      </class> <!-- com.AHM.TestCases.TC_ChangeReadinessLevel -->
+      <class name="com.AHM.TestCases.TC_CreatePhyioTherapist">
+        <methods>
+          <include name="createPhysioTherapist"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.AHM.TestCases.TC_CreatePhyioTherapist -->
+      <class name="com.AHM.TestCases.TC_InjuryReportCreatedByPhysio">
+        <methods>
+          <include name="createInjuryReportByPhysio"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.AHM.TestCases.TC_InjuryReportCreatedByPhysio -->
+      <class name="com.AHM.TestCases.TC_BrainHealthChallenge">
+        <methods>
+          <include name="brainHealthChallenge"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.AHM.TestCases.TC_BrainHealthChallenge -->
+      <class name="com.AHM.TestCases.TC_Messages">
+        <methods>
+          <include name="sendMessages"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.AHM.TestCases.TC_Messages -->
+      <class name="com.AHM.TestCases.TC_AddWorkHoursAndCreateAppointment">
+        <methods>
+          <include name="createAppointment"/>
+          <include name="setUp"/>
+          <include name="addWorkHours"/>
+        </methods>
+      </class> <!-- com.AHM.TestCases.TC_AddWorkHoursAndCreateAppointment -->
+      <class name="com.AHM.TestCases.TC_AddQuestionSet">
+        <methods>
+          <include name="setUp"/>
+          <include name="addQuestionSet"/>
+        </methods>
+      </class> <!-- com.AHM.TestCases.TC_AddQuestionSet -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

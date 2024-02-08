@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-07T18:04:39 IST" name="Suite" finished-at="2024-02-07T18:10:57 IST" duration-ms="378153">
+    <groups>
+    </groups>
+    <test started-at="2024-02-07T18:04:39 IST" name="Test" finished-at="2024-02-07T18:10:57 IST" duration-ms="378153">
+      <class name="com.AHM.TestCases.TC_AddWorkHoursAndCreateAppointment">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.AHM.TestCases.TC_AddWorkHoursAndCreateAppointment@4a883b15]" started-at="2024-02-07T18:04:59 IST" name="setUp" finished-at="2024-02-07T18:05:06 IST" duration-ms="7388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addWorkHours()[pri:0, instance:com.AHM.TestCases.TC_AddWorkHoursAndCreateAppointment@4a883b15]" started-at="2024-02-07T18:05:06 IST" name="addWorkHours" finished-at="2024-02-07T18:06:10 IST" duration-ms="63923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addWorkHours -->
+        <test-method signature="createAppointment()[pri:0, instance:com.AHM.TestCases.TC_AddWorkHoursAndCreateAppointment@4a883b15]" started-at="2024-02-07T18:06:10 IST" name="createAppointment" finished-at="2024-02-07T18:06:13 IST" depends-on-methods="com.AHM.TestCases.TC_AddWorkHoursAndCreateAppointment.addWorkHours" duration-ms="2934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAppointment -->
+      </class> <!-- com.AHM.TestCases.TC_AddWorkHoursAndCreateAppointment -->
+      <class name="com.AHM.TestCases.TC_BrainHealthChallenge">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.AHM.TestCases.TC_BrainHealthChallenge@25641d39]" started-at="2024-02-07T18:06:13 IST" name="setUp" finished-at="2024-02-07T18:06:20 IST" duration-ms="7024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="brainHealthChallenge()[pri:0, instance:com.AHM.TestCases.TC_BrainHealthChallenge@25641d39]" started-at="2024-02-07T18:06:20 IST" name="brainHealthChallenge" finished-at="2024-02-07T18:06:56 IST" duration-ms="36115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brainHealthChallenge -->
+      </class> <!-- com.AHM.TestCases.TC_BrainHealthChallenge -->
+      <class name="com.AHM.TestCases.TC_CreateInjuryReport">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.AHM.TestCases.TC_CreateInjuryReport@7b36aa0c]" started-at="2024-02-07T18:06:56 IST" name="setUp" finished-at="2024-02-07T18:07:05 IST" duration-ms="8544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createInjuryReport()[pri:0, instance:com.AHM.TestCases.TC_CreateInjuryReport@7b36aa0c]" started-at="2024-02-07T18:07:05 IST" name="createInjuryReport" finished-at="2024-02-07T18:07:25 IST" duration-ms="20864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInjuryReport -->
+      </class> <!-- com.AHM.TestCases.TC_CreateInjuryReport -->
+      <class name="com.AHM.TestCases.TC_Messages">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.AHM.TestCases.TC_Messages@4d154ccd]" started-at="2024-02-07T18:09:32 IST" name="setUp" finished-at="2024-02-07T18:09:40 IST" duration-ms="7760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sendMessages()[pri:0, instance:com.AHM.TestCases.TC_Messages@4d154ccd]" started-at="2024-02-07T18:09:40 IST" name="sendMessages" finished-at="2024-02-07T18:10:15 IST" duration-ms="34597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMessages -->
+      </class> <!-- com.AHM.TestCases.TC_Messages -->
+      <class name="com.AHM.TestCases.TC_AddQuestionSet">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.AHM.TestCases.TC_AddQuestionSet@229c6181]" started-at="2024-02-07T18:10:15 IST" name="setUp" finished-at="2024-02-07T18:10:23 IST" duration-ms="8176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addQuestionSet()[pri:0, instance:com.AHM.TestCases.TC_AddQuestionSet@229c6181]" started-at="2024-02-07T18:10:23 IST" name="addQuestionSet" finished-at="2024-02-07T18:10:57 IST" duration-ms="34597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addQuestionSet -->
+      </class> <!-- com.AHM.TestCases.TC_AddQuestionSet -->
+      <class name="com.AHM.TestCases.TC_InjuryReportCreatedByPhysio">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.AHM.TestCases.TC_InjuryReportCreatedByPhysio@537f60bf]" started-at="2024-02-07T18:08:28 IST" name="setUp" finished-at="2024-02-07T18:08:36 IST" duration-ms="7398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createInjuryReportByPhysio()[pri:0, instance:com.AHM.TestCases.TC_InjuryReportCreatedByPhysio@537f60bf]" started-at="2024-02-07T18:08:36 IST" name="createInjuryReportByPhysio" finished-at="2024-02-07T18:08:55 IST" duration-ms="19745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInjuryReportByPhysio -->
+      </class> <!-- com.AHM.TestCases.TC_InjuryReportCreatedByPhysio -->
+      <class name="com.AHM.TestCases.TC_ChangeReadinessLevel">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.AHM.TestCases.TC_ChangeReadinessLevel@65c7a252]" started-at="2024-02-07T18:08:55 IST" name="setUp" finished-at="2024-02-07T18:09:02 IST" duration-ms="6392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="changeReadinessLevel()[pri:0, instance:com.AHM.TestCases.TC_ChangeReadinessLevel@65c7a252]" started-at="2024-02-07T18:09:02 IST" name="changeReadinessLevel" finished-at="2024-02-07T18:09:32 IST" duration-ms="30463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeReadinessLevel -->
+      </class> <!-- com.AHM.TestCases.TC_ChangeReadinessLevel -->
+      <class name="com.AHM.TestCases.TC_CreatePhyioTherapist">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.AHM.TestCases.TC_CreatePhyioTherapist@5824a83d]" started-at="2024-02-07T18:07:25 IST" name="setUp" finished-at="2024-02-07T18:07:34 IST" duration-ms="8219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createPhysioTherapist()[pri:0, instance:com.AHM.TestCases.TC_CreatePhyioTherapist@5824a83d]" started-at="2024-02-07T18:07:34 IST" name="createPhysioTherapist" finished-at="2024-02-07T18:08:28 IST" duration-ms="54646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPhysioTherapist -->
+      </class> <!-- com.AHM.TestCases.TC_CreatePhyioTherapist -->
+      <class name="com.AHM.TestCases.TC_LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.AHM.TestCases.TC_LoginTest@5d534f5d]" started-at="2024-02-07T18:04:40 IST" name="setUp" finished-at="2024-02-07T18:04:50 IST" duration-ms="10276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin()[pri:0, instance:com.AHM.TestCases.TC_LoginTest@5d534f5d]" started-at="2024-02-07T18:04:50 IST" name="verifyLogin" finished-at="2024-02-07T18:04:59 IST" duration-ms="8476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+      </class> <!-- com.AHM.TestCases.TC_LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
