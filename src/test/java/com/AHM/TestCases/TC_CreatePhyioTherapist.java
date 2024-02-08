@@ -18,6 +18,7 @@ public class TC_CreatePhyioTherapist extends BaseClass {
 	@Test
 	public void createPhysioTherapist() throws InterruptedException
 	{
+		//login by admin
 		LoginPage loginPage = new LoginPage(driver);
 		loginPage.username("rushi-admin");
 		loginPage.password("Rushikesh@123");
@@ -26,7 +27,8 @@ public class TC_CreatePhyioTherapist extends BaseClass {
 		
 		Users users = new Users(driver);
 		users.inviteUser();
-		
+
+		//create physiotherapist....
 		users.firstName();
 		users.lastName();
 		String FIRSTNAME = users.FirstName.getAttribute("value");
